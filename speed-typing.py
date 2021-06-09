@@ -46,7 +46,7 @@ class Game:
         pygame.display.update()   
         
     def get_sentence(self):
-        f = open('sentences.txt').read()
+        f = open('sentence.txt').read()
         sentences = f.split('\n')
         sentence = random.choice(sentences)
         return sentence
